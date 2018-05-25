@@ -1,13 +1,3 @@
-# Google Play Music to Last.FM
-
-## This is a WIP
-
-## Getting your Google Play Data
-
-- Go to https://play.google.com/music and open your console.
-- Run the below command
-
-```
 function getColumnContent(row, columnName) {
 	const column = row.querySelector(`[data-col="${columnName}"]`);
 
@@ -87,4 +77,3 @@ function getPlaysFromRenderedSongs(songTable, tracksSoFar) {
 const songTable = document.querySelector('.song-table');
 
 getPlaysFromRenderedSongs(songTable);
-```
